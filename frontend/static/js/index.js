@@ -1,6 +1,5 @@
 import Home from "./views/Home.js";
 import CV from "./views/CV.js";
-import CVView from "./views/CVView.js";
 import MyProjects from "./views/MyProjects.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -23,7 +22,6 @@ const router = async () => {
     const routes = [
         { path: "/", view: Home },
         { path: "/CV", view: CV },
-        { path: "/CV/:id", view: CVView },
         { path: "/MyProjects", view: MyProjects }
     ];
 
