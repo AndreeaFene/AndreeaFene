@@ -49,9 +49,15 @@ h2 {
   text-shadow: rgb(0, 0, 0) 3px 4px 9px;
 }
 
+h3 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: white;
+}
+
 div {
   color: white;
-  height: 100%;
   display: inline;
 }
 
@@ -107,10 +113,20 @@ p {
   color: white;
   margin-right: 20px;
 }
-.fa-linkedin-square {
-  background: #5bac8b;
-  color: white;
-  margin-left: 50px;
+@media (min-width: 400px) {
+.MyProjectStyle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
+#ImgMyProjects {
+  height: auto;
+  width: 400px;
+}
+
+.SubProject {
+  margin: 2%;
 }
 
 #ImgAndreea {
@@ -121,28 +137,15 @@ p {
   float: left;
 }
 
-#ImgMyProjects {
-  height: auto;
-  width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%
-}
-
 #ButtonDownload {
-  float: right;
   margin: 2%;
 }
 
 footer {
   display: flex;
-  position: relative;
   width: 100%;
   background-color: #333;
   justify-content: center;
-  left: 0;
-  bottom: 0;
 }
 
 #footer-content {

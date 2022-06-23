@@ -14,7 +14,7 @@ export default class extends AbstractView {
             <img id="ImgAndreea" src="/static/images/andreea.jpg" alt="Andreea">
             <p>
             <h2>Andreea Fenesanu</h2><br>
-            I am passionate about learning how
+            <h3>I am passionate about learning how
             things work, which is why I’ve, chose
             Veterinary Medicine. Also I’m an animal
             lover and an emphatic person.
@@ -25,8 +25,11 @@ export default class extends AbstractView {
             the high school period. I think front end
             development it’s the perfect way to
             combine my skills with my creative mind.
-            </p>
-            <a href="/CV" data-link id="ButtonDownload">View my CV</a>
+            </h3>
+            </p>       
+            <footer>
+            <span id = "footer-content">Designed by Andreea Fenesanu</span>
+            </footer>
         `;
   }
 }

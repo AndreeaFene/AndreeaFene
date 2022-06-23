@@ -11,7 +11,9 @@ export default class extends AbstractView {
         <header>
         <h1>My CV</h1>
         </header>
-        <p><h2>🐈About Me</h2><br>
+        <p><a href="/static/pdf/cv_scoala_informala.pdf" id="ButtonDownload" download>Download my CV</a></p>
+        <p>
+        <h2>🐈About Me</h2><br>
         I’ve decided to learn front-end development because I wanted to develop my IT skills gained in the high school period. <br>
         I think front end development it’s the perfect way to combine my skills with my creative mind. <br><br><br>
 
@@ -26,8 +28,11 @@ export default class extends AbstractView {
         · Well organized <br>
         · Creative <br>
         · Languages and Methods: C++, HTML, CSS, JavaScript <br>
-        · Software: Microsoft Office</p><br><br>
-        <a href="/static/pdf/cv_scoala_informala.pdf" id="ButtonDownload" download>Download</a>
+        · Software: Microsoft Office</p>
+        <footer>
+        <span id = "footer-content">Designed by Andreea Fenesanu</span>
+        </footer>
+        </div>
         `
     }
 }
