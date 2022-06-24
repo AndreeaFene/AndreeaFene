@@ -11,7 +11,7 @@ export default class extends AbstractView {
         <header>
         <h1>My CV</h1>
         </header>
-        <p><a href="/frontend/static/pdf/cv_scoala_informala.pdf" id="ButtonDownload" download>Download my CV</a></p>
+        <p><a href="/AndreeaFene/frontend/static/pdf/cv_scoala_informala.pdf" id="ButtonDownload" download>Download my CV</a></p>
         <p>
         <h2>🐈About Me</h2><br>
         I’ve decided to learn front-end development because I wanted to develop my IT skills gained in the high school period. <br>
