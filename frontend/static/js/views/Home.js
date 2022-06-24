@@ -11,7 +11,7 @@ export default class extends AbstractView {
             <header>
             <h1>Welcome to my page</h1>
             </header>
-            <img id="ImgAndreea" src="frontend/static/images/andreea.jpg" alt="Andreea">
+            <img id="ImgAndreea" src="https://github.com/AndreeaFene/AndreeaFene/blob/main/frontend/static/images/andreea.jpg?raw=true" alt="Andreea">
             <p>
             <h2>Andreea Fenesanu</h2><br>
             <h3>I am passionate about learning how
