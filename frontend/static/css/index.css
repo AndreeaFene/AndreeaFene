@@ -15,6 +15,7 @@ body {
   );
   background-attachment: fixed;
   text-align: center;
+  min-width: fit-content;
 }
 
 html,
@@ -95,6 +96,14 @@ p {
   padding-top: 5%;
 }
 
+@media (min-width: 400px) {
+  .MyProjectStyle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 #ImgMyProjects {
   height: auto;
   width: 400px;
@@ -105,6 +114,7 @@ p {
 }
 
 #ImgAndreea {
+  margin: 2%;
   height: 400px;
   width: auto;
   border-radius: 50%;
