@@ -29,9 +29,6 @@ export default class extends AbstractView {
         · Creative <br>
         · Languages and Methods: C++, HTML, CSS, JavaScript <br>
         · Software: Microsoft Office</p>
-        <footer>
-        <span id = "footer-content">Designed by Andreea Fenesanu</span>
-        </footer>
         </div>
         `
     }

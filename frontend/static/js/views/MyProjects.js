@@ -36,9 +36,6 @@ export default class extends AbstractView {
             <p><a href="https://github.com/AndreeaFene/SIIT_Andreea_Fenesanu/tree/main/optional_week_2" download>Simple Dog Breeds Blog Page</a></p>
             <img id="ImgMyProjects" src="https://andreeafene.github.io/AndreeaFene/frontend/static/images/home7.PNG" alt="Andreea">
             </div>
-            <footer>
-            <span id = "footer-content">Designed by Andreea Fenesanu</span>
-            </footer>
             </div>
         `;
     }

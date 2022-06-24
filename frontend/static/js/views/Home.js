@@ -26,10 +26,7 @@ export default class extends AbstractView {
             development it’s the perfect way to
             combine my skills with my creative mind.
             </h3>
-            </p>       
-            <footer>
-            <span id = "footer-content">Designed by Andreea Fenesanu</span>
-            </footer>
+            </p>
         `;
   }
 }
