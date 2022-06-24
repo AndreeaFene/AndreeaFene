@@ -14,7 +14,7 @@ export default class extends AbstractView {
             <div class="MyProjectStyle">
             <div class="SubProject">
             <p><a href="https://github.com/AndreeaFene/SIIT_Andreea_Fenesanu/tree/main/01%20week/my%20blog" download>Blog Home Page</a></p>
-            <img id="ImgMyProjects" src="https://andreeafene.github.io/AndreeaFene/frontend/static/images/home1_1.PNG alt="Andreea">
+            <img id="ImgMyProjects" src="https://andreeafene.github.io/AndreeaFene/frontend/static/images/home1_1.PNG" alt="Andreea">
             </div>
             <div class="SubProject">
             <p><a href="https://github.com/AndreeaFene/SIIT_Andreea_Fenesanu/tree/main/06_week_homework" download>Player Box Game</a></p>
